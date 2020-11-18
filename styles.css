@@ -1,0 +1,64 @@
+/*font-family: 'Bebas Neue', cursive;*/
+/*font-family: 'Roboto', sans-serif;*/
+
+body {
+    background-image: url("https://i.pinimg.com/originals/c1/f9/e7/c1f9e77617894106c172bf2eb335c50f.png");
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.start {
+    border-top: solid white 20px;
+    border-bottom: solid white 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.dashed {
+    border-top: dashed white 15px;
+    border-bottom: dashed white 15px;
+
+}
+
+.logo {
+    width: 85%;
+    max-width: 750px;
+
+}
+
+.logo2 {
+    filter: invert(1);
+    width: 65%;
+    max-width: 600px;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    cursor: pointer;
+}
+
+
+.candyPic {
+    max-width: 700px;
+    height: 400px;
+}
+.costumePic{
+    max-width: 600px;
+    height: 400px;
+    
+    }
+.candyButton, .costumeButton, .halloween{
+    width: 210px;
+    padding: 10px;
+    margin-top:10px;
+    background: gold;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.container{
+    display:flex;
+    justify-content:space-evenly;   
+    }
